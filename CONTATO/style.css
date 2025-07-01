@@ -6,9 +6,24 @@
         body{
             background: linear-gradient(to right, #01c1fc9a,#017afc8a, #0171fa74);
         }
-
-        h1 {
+        header{
             text-align: center;
+            padding: 20px;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin-bottom: 50px;
+        }
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        header h2 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1rem;
+            margin-bottom: 10px;
         }
 
         form {
@@ -36,6 +51,8 @@
         textarea {
             border-radius: 10px 5px;
             background: rgb(187, 238, 255);
+            padding: 10px;
+            border-style: hidden;
         }
 
         #content input:hover,
