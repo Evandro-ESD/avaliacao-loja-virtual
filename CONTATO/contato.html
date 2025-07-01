@@ -10,37 +10,40 @@
 
 <body>
     <header>
-        <h1>Fale com a Essence</h1>
-        <h2>Na <strong>Essense</strong>, sua opinião e suas dúvidas são muito importantes para nós</h2>
-        <p>Quer saber mais sobre nossos produtos, fazer uma sugestão ou tirar alguma dúvida? 
-            Preencha o formlário abaixo com seus dados e sua menssagem. Nossa equipe entrar em 
-            contato o mais rápido possível!<br>
-        Aqui na <strong>Essence</strong>, cada detalhe importa — e ouvir você faz parte da nossa essência!
-        </p>
+        <div id="header">
+            <h1>Fale com a Essence</h1>
+            <h2>Na <strong>Essense</strong>, sua opinião e suas dúvidas são muito importantes para nós</h2>
+            <p>Quer saber mais sobre nossos produtos, fazer uma sugestão ou tirar alguma dúvida?
+                Preencha o formlário abaixo com seus dados e sua menssagem. Nossa equipe entrar em
+                contato o mais rápido possível!<br>
+                Aqui na <strong>Essence</strong>, cada detalhe importa — e ouvir você faz parte da nossa essência!
+            </p>
+        </div>
+
     </header>
     <main>
         <!-- Formulário com os campos: nome, CEP, rua, bairro, cidade, 
          estado, assunto (textarea). -->
-        <form  id="form-contato"  action="" onsubmit="prencherCampos(event)">
+        <form id="form-contato" action="" onsubmit="prencherCampos(event)">
             <div id="content">
                 <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" >
+                <input type="text" id="nome" name="nome">
 
                 <label for="cep">CEP:</label>
                 <input type="number" id="cep" name="cep" required>
-                
+
                 <label for="logradouro">Rua:</label>
-                <input type="text" id="logradouro" name="logradouro" >
-                
+                <input type="text" id="logradouro" name="logradouro">
+
                 <label for="bairro">Bairro:</label>
-                <input type="text" id="bairro" name="bairro" >
+                <input type="text" id="bairro" name="bairro">
 
                 <label for="cidade">Cidade:</label>
-                <input type="text" id="cidade" name="cidade" >
+                <input type="text" id="cidade" name="cidade">
 
                 <label for="estado">Estado:</label>
-                <input type="text" id="estado" name="estado" >
-  
+                <input type="text" id="estado" name="estado">
+
                 <label for="">Assunto</label>
                 <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
 

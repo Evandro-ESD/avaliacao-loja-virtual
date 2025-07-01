@@ -1,4 +1,3 @@
-SCRIPT
 
 document.addEventListener('DOMContentLoaded', () => {
     fetch('produtos.json')
@@ -11,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.error('Erro: Elemento com id "produtos-container" não foi encontrado no HTML.');
                 return;
             }
+            console.log(data)
 
             produtosArray.forEach(produto => {
                 const card = document.createElement('div');

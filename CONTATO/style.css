@@ -12,6 +12,10 @@
             color: #333;
             font-family: Arial, sans-serif;
             margin-bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         header h1 {
             font-size: 2rem;
@@ -19,11 +23,14 @@
         }
         header h2 {
             font-size: 1.2rem;
-            margin-bottom: 10px;
+            margin: 2rem 3rem;
         }
         header p {
             font-size: 1rem;
             margin-bottom: 10px;
+        }
+        header div {
+            width: 60dvw;
         }
 
         form {
