@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato - Essence</title>
+</head>
+
+<body>
+    <header>
+        <h1>Deixe um comentário</h1>
+    </header>
+    <main>
+        <form action="" onsubmit="enviar(event)">
+            <div id="content">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="nome">Website:</label>
+                <input type="url" id="website" name="website" required>
+
+                <label for="">Comentário</label>
+                <textarea name="menssagem" id="menssagem" cols="30" rows="10"></textarea>
+
+                <p>Observação: Seu comentário será publicado após passar pelo moderador</p>
+                <button id="enviar" type="submit">Enviar Comentário</button>
+            </div>
+        </form>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
