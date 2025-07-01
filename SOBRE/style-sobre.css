@@ -35,13 +35,13 @@ main {
 /*  INÍCIO CSS do Carrossel home*/
 .slider{
     margin: 0 auto;
-    width: 800px;
-    height: 400px;
+    width: 850px;
+    height: 300px;
     overflow: hidden;
 }
 .slides{
-    width: 400%;
-    height: 370px;
+    width: 500%;
+    height: 310px;
     display: flex;
 }
 .slides input{
@@ -53,11 +53,11 @@ main {
     transition: 2s;
 }
 .slide img{
-    width: 800px;
+    width: 850px;
 }
 .manual-navigation{
     position: absolute;
-    width: 800px;
+    width: 850px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -90,7 +90,6 @@ main {
 #radio5:checked ~ .first{
     margin-left: -80%;
 }
-
 .navigation-auto div{
     border: 2px solid #20a6ff;
     padding: 5px;
@@ -100,8 +99,8 @@ main {
 }
 .navigation-auto{
     position: absolute;
-    width: 800px;
-    margin-top: 330px;
+    width: 850px;
+    margin-top: 270px;
     display: flex;
     justify-content: center
 }
