@@ -37,6 +37,7 @@ async function prencherCampos() {
 
 }
 document.getElementById('form-contato').addEventListener('submit', (e) => {
-    // e.preventDefault()
+    e.preventDefault()
     alert('Evento!!')
+    window.location.href = '../HOME/index.html'
 })
