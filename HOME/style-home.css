@@ -183,3 +183,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/*-------------------- Organizando os produtos ----------------------*/
+#lista-produtos {
+display: grid;
+grid-template-columns: repeat(3, 1fr); /* 3 colunas de largura igual*/
+gap: 20px; /* espaço entre os cards*/
+padding: 20px;
+}
