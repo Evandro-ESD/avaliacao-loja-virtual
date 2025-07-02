@@ -1,7 +1,8 @@
 
-fetch("produtos.json")
+fetch("/HOME/produtos.json")
     .then(res => res.json())
     .then(produtos => {
+      alert(`${produtos} produtos encontrados!`);
         const container = document.getElementById("produtos");
         produtos.forEach(prod => {
             container.innerHTML += `
