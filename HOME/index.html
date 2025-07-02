@@ -9,16 +9,12 @@
 
 <body>
     <div class="marca-dagua"></div>
-    <!-- Div usada para exibir uma imagem de fundo como marca d'água no site -->
-
         <header>
-        <!-- Cabeçalho do site, normalmente contém o logo e o menu -->
-
+       
         <h1>Atividade 60PTS - HTML/CSS/JS/API</h1>
-        <!-- Título principal do site -->
-
+        
         <nav aria-label="Menu Principal">
-            <!-- Navegação principal do site, com links para as seções -->
+            
             <a href="index.html">Inicio</a>
             <a href="index.html#hardware">feminino</a>
             <a href="index.html#software">masculino</a>
@@ -61,87 +57,43 @@
                 <label for="radio2" class="manual-btn"></label>
                 <label for="radio3" class="manual-btn"></label>
                 <label for="radio4" class="manual-btn"></label>
-            </div>   
+            </div>
+            <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <div class="slide first">
+                <img src="../imagens/carrossel-1-0.jfif" alt="img1">
+            </div>
+            <div class="slide">
+                <img src="../imagens/carrossel-1-1.jpg" alt="img2">
+            </div>
+            </div>
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div> 
+    </div>
 
+    <section id="nossos-produtos">
+        <h2>Nossos Produtos</h2>
+        <p>Confira as peças essenciais da nova coleção.</p>
+
+        <div id="produtos-container" class="produtos">
         </div>
-              <section>
-            <p>Confira os melhores equipamentos em nossa loja para turbinar seu computador</p>
-            <!-- Descrição da seção -->
-
-            <div class="produtos">
-                <!-- Contêiner que agrupa os produtos com display flex no CSS -->
-
-                <div class="produto">
-                    <!-- Produto individual -->
-
-                    <img src="img/61C2muLqwqL._AC_UF894,1000_QL80_.jpg" alt="Imagem da Placa de Vídeo">
-                    <!-- Imagem do produto com descrição alternativa -->
-
-                    <h4>Placa de vídeo</h4>
-                    <!-- Nome do produto -->
-
-                    <p>Alta performance para jogos</p>
-                    <!-- Descrição rápida -->
-
-                    <p>R$ 2.980,00</p>
-                    <!-- Preço -->
-                </div>
-
-                <div class="produto">
-                    <img src="img/wds240g3g0a1.jpg" alt="Imagem do SSD">
-                    <h4>SSD 1TB NVMe</h4>
-                    <p>Velocidade extrema para seus dados</p>
-                    <p>R$ 499,00</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="lista-produtos">
-            <h2>Lista de produtos</h2>
-            <!-- Subtítulo da seção -->
-
-            <p>Confira os melhores equipamentos em nossa loja para turbinar seu computador</p>
-            <!-- Descrição da seção -->
-
-            <div class="produtos">
-                <!-- Contêiner que agrupa os produtos com display flex no CSS -->
-
-                <div class="produto">
-                    <!-- Produto individual -->
-
-                    <img src="img/61C2muLqwqL._AC_UF894,1000_QL80_.jpg" alt="Imagem da Placa de Vídeo">
-                    <!-- Imagem do produto com descrição alternativa -->
-
-                    <h4>Placa de vídeo</h4>
-                    <!-- Nome do produto -->
-
-                    <p>Alta performance para jogos</p>
-                    <!-- Descrição rápida -->
-
-                    <p>R$ 2.980,00</p>
-                    <!-- Preço -->
-                </div>
-
-                <div class="produto">
-                    <img src="img/wds240g3g0a1.jpg" alt="Imagem do SSD">
-                    <h4>SSD 1TB NVMe</h4>
-                    <p>Velocidade extrema para seus dados</p>
-                    <p>R$ 499,00</p>
-                </div>
-            </div>
-        </section>
+    </section>
 
     </main>
-
-
-        <footer class="rodape">
+    <footer class="rodape">
         <!-- Rodapé da página, normalmente contém informações legais e de contato -->
 
         <p>&copy; 2025 - Atividade 60PTS - HTML/CSS/JS/API”. Todos os direitos reservados.</p>
-        <!-- Aviso de direitos autorais -->
 
         <p>Contato: https://github.com/Evandro-ESD/avaliacao-loja-virtual</p>
-        <!-- Informações de contato -->
     </footer>
     <script src="script.js"></script>
     <script src="script_produtos.js"></script>

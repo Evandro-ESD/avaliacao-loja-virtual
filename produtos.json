@@ -1,67 +1,67 @@
 {
   "produtos": [
     {
-      "id": "1",
+      "id": 1,
       "produto": "Macaquinho Feminino",
       "preço": 89.90,
       "detalhe": "Macaquinho Urbano Boho - Charme e Conforto para o Verão",
       "imagem": "imagens/roupa1.jpg"
     },
      {
-      "id": "2",
+      "id": 2,
       "produto": "Calça Cargo",
       "preço": 139.90,
       "detalhe": "Calça Cargo Street Style Masculina - Liberdade e Atitude",
-      "imagem": "imagens/roupa2.png"
+      "imagem": "imagens/roupa2.jpg"
     },
     {
-      "id": "3",
+      "id": 3,
       "produto": "Camisa Social",
       "preço": 99.90,
       "detalhe": "Calça Social Slim Fit Masculina - Elegância e Versatilidade Essenciais",
-      "imagem": "imagens/roupa3.png"
+      "imagem": "imagens/roupa3.jpg"
     },
      {
-      "id": "4",
+      "id": 4,
       "produto": "Legging Fitness",
       "preço": 69.90,
       "detalhe": "Legging Fitness Canelada - Performance e Estilo para o Seu Treino",
-      "imagem": "imagens/roupa4.png"
+      "imagem": "imagens/roupa4.jpg"
     },
     {
-      "id": "5",
+      "id": 5,
       "produto": "Terno Social",
       "preço": 439.90,
       "detalhe": "Terno Social Clássico Preto - A Essência da Elegância Masculina",
-      "imagem": "imagens/roupa5.png"
+      "imagem": "imagens/roupa5.jpg"
     },
      {
-      "id": "6",
+      "id": 6,
       "produto": "Vestido Floral",
       "preço": 129.90,
       "detalhe": "Vestido Midi Floral Retrô - Charme e Feminilidade Atemporal",
-      "imagem": "imagens/roupa6.png"
+      "imagem": "imagens/roupa6.jpg"
     },
     {
-      "id": "7",
+      "id": 7,
       "produto": "Regata Feminina",
       "preço": 39.90,
       "detalhe": "Regata Essencial Listrada - Conforto e Estilo Básico Chic",
-      "imagem": "imagens/roupa7.png"
+      "imagem": "imagens/roupa7.jpg"
     },
      {
-      "id": "8",
+      "id": 8,
       "produto": "Calça Cargo",
       "preço": 209.90,
       "detalhe": "Calça Cargo Tática/Casual Masculina - Praticidade e Conforto Despojado",
-      "imagem": "imagens/roupa8.png"
+      "imagem": "imagens/roupa8.jpg"
     },
     {
-      "id": "9",
+      "id": 9,
       "produto": "Suéter Masculino",
       "preço": 119.90,
       "detalhe": "Suéter Masculino Malha Fina - Elegância e Conforto Atemporal",
-      "imagem": "imagens/roupa9.png"
+      "imagem": "imagens/roupa9.jpg"
     }
   ]
 }
