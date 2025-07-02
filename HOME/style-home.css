@@ -205,9 +205,6 @@ flex-direction: column;
 justify-content: space-between; /* distribui o espaço entre os itens */
 align-items: center; /* centraliza os itens horizontalmente */
 }
-.card:hover {
-  transform: ;
-}
 .card img {
 max-width: 100%;
 height: 150px; /* altura fixa para as imagens */
