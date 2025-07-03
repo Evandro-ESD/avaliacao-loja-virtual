@@ -13,6 +13,7 @@ body {
 
 /* cabeçalho */
 header {
+  z-index: 10;
   width: 100%;
   position: fixed;
   background-color: rgba(54, 66, 119, 0.952);
@@ -62,7 +63,6 @@ main {
 
 /*  INÍCIO CSS do Carrossel home*/
 .slider {
-  z-index: -1;
   margin: 140px auto 5px;
   width: 800px;
   height: 400px;
@@ -99,6 +99,7 @@ main {
 }
 
 .manual-btn {
+  /* z-index: 1; */
   border: 2px solid white;
   padding: 5px;
   border-radius: 10px;
