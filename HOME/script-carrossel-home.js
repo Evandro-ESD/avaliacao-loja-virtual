@@ -14,3 +14,16 @@ function nextImage() {
   document.getElementById("radio" + count).checked = true;
 }
 // FIM JS Carrossel Home
+
+// esconder h1
+window.addEventListener('scroll', function(){
+  const header = document.querySelector("header")
+
+  if(window.scrollY > 140){
+    header.classList.add('scrolled')
+    // alert('funciona!!!')
+  }
+  else{
+    header.classList.remove('scrolled')
+  }
+})
